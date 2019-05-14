@@ -1,0 +1,8 @@
+php artisan app:name "nombre" 
+'timezone' => 'America/La_Paz',
+
+----------------solucion a migrate----------------co
+use Illuminate\Support\Facades\Schema;
+
+boot() ->  Schema::defaultStringLength(191);
+
